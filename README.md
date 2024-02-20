@@ -44,6 +44,6 @@ O arquivo em python foi criado para ser encapsulado em executável por meio do p
 
 ## Utilização do GitHub
 
-No total, executei 8 commits. Primeiro, eu criei e sincronizei meu repositório git com o github remoto. Depois, acabei não salvando e enviei apenas o arquivo criado por equívoco. Por isso, enviei o notebook base salvo para correção. Então,  primeiro eu resolvi os casos mais simples por facilidade de execução. Depois, resolvi os casos em que aparecia um número no endereço, seja no início, meio ou fim. 
+Primeiro, eu criei e sincronizei meu repositório git com o github remoto. Depois, acabei não salvando e enviei apenas o arquivo criado por equívoco. Por isso, enviei o notebook base salvo para correção. Então,  primeiro eu resolvi os casos mais simples por facilidade de execução. Depois, resolvi os casos em que aparecia um número no endereço, seja no início, meio ou fim. 
 
 Então, resolvi o caso em que aparece mais de uma vez os números no endereço e criei um markdown para exemplificar o desafio para posteridade. Como eu não tinha percebido que era para ser um executável, eu adaptei o código para trabalhar com pandas e facilitar a entrada e saida de informações, criei o .py e o .exe também. Por fim, atualizei novamente o markdown.
