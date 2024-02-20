@@ -27,3 +27,21 @@ b. “100 Broadway Av” -> {"Broadway Av", "100"}
 c. “Calle Sagasta, 26” -> {“Calle Sagasta”, “26”}
 
 d. “Calle 44 No 1991” -> {“Calle 44”, “No 1991”}
+
+## Resolução
+
+Foi utilizado o notebook Jupyter para confecção e testes desse desafio. 
+
+Primeiro, foi importado a biblioteca Pandas para transformar o arquivo Excel em dataframe. Preferi trabalhar com input em excel pelo entrada.xlsx, pois é um software presente em todo lugar e facilita a extração e a saida.
+
+Segundo, foi criada uma função chamada armazenar_endereco que verificará o endereço e retornará o valor em dicionário separado do logradouro e do número, de acordo com a exigência do desafio. 
+
+Por fim, essa função é aplicada linha a linha d datraframe e retornada em excel como saida.xlsx em poucos segundos.
+
+## Executável
+
+O arquivo em python foi criado para ser encapsulado em executável por meio do pyinstaller. Fiz os testes e o desafio.exe está funcionando normalmente.
+
+
+
+
